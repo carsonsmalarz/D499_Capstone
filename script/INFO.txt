@@ -1,0 +1,23 @@
+--How to restore a break data backup:
+
+If incorrect break data was added and you need to revert to a previous version, follow these steps:
+
+1. Open the "backups" folder located in the same folder as the prediction script.
+
+2. Find the backup file you want to restore. Backup files are named by the date and time they were created, for example: 
+	Breaks2013toNow_backup_2026-04-28_14-30-00.csv
+   
+	Choose the most recent backup from BEFORE the incorrect data was added.
+
+3. Copy that backup file. (Right click --> Copy)
+
+4. Go back to the main folder (where the prediction script is located)
+
+5. Rename the pasted file to exactly:
+	Breaks2013toNow.csv
+
+	To rename: right click the file --> Rename, type the new name and press Enter
+
+6. When asked if you want to replace the existing file, click "Yes".
+
+The script will now use the restored data the next time it is run.
